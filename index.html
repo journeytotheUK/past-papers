@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Past Papers — Moaaz, Waqar, Junaid, Arslan | VU Midterm | Nabila</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--sel-bg:#BFE9DF;--sel-text:#083F39;--radius:22px}
+[data-theme="light"]{--teal:#0F766E;--teal-deep:#0B4F4A;--teal-bright:#14B8A6;--teal-soft:#CDEAE3;--teal-mist:#EFF8F5;--bg:#E3F1EC;--surface:#F8FCFB;--surface2:#DDEEE8;--ink:#12332D;--muted:#527069;--line:rgba(15,118,110,.18);--link:#0B6B62;--good:#1e7a4c;--warn:#9a6a00;--bad:#b3362b;--chip:#DDEEE8;--codebg:#E9F5F1;--th-bg:#0F766E;--th-ink:#FFFFFF;--warn-bg:#FBF1E2;--clay:10px 10px 24px rgba(13,92,84,.15),-10px -10px 24px rgba(255,255,255,.85);--clay-sm:6px 6px 14px rgba(13,92,84,.12),-6px -6px 14px rgba(255,255,255,.8);--clay-inset:inset 4px 4px 10px rgba(13,92,84,.10),inset -4px -4px 10px rgba(255,255,255,.65)}
+[data-theme="jet"]{--teal:#FFFFFF;--teal-deep:#FFFFFF;--teal-bright:#FFFFFF;--teal-soft:#262626;--teal-mist:#141414;--bg:#000000;--surface:#121212;--surface2:#1C1C1C;--ink:#FFFFFF;--muted:#C9C9C9;--line:rgba(255,255,255,.20);--link:#FFFFFF;--good:#8FE6AC;--warn:#F5D67A;--bad:#FFA79B;--chip:#262626;--codebg:#000000;--th-bg:#FFFFFF;--th-ink:#000000;--warn-bg:#2A2110;--clay:10px 10px 24px rgba(0,0,0,.85),-8px -8px 22px rgba(255,255,255,.05);--clay-sm:6px 6px 14px rgba(0,0,0,.8),-5px -5px 12px rgba(255,255,255,.05);--clay-inset:inset 4px 4px 10px rgba(0,0,0,.7),inset -4px -4px 10px rgba(255,255,255,.05)}
+[data-theme="inverse"]{--teal:#000000;--teal-deep:#000000;--teal-bright:#000000;--teal-soft:#E8E8E8;--teal-mist:#F7F7F7;--bg:#FFFFFF;--surface:#FFFFFF;--surface2:#F0F0F0;--ink:#000000;--muted:#4A4A4A;--line:rgba(0,0,0,.18);--link:#000000;--good:#14632F;--warn:#7A5200;--bad:#9C2418;--chip:#EEEEEE;--codebg:#F2F2F2;--th-bg:#000000;--th-ink:#FFFFFF;--warn-bg:#FBF1DC;--clay:10px 10px 24px rgba(0,0,0,.12),-10px -10px 24px rgba(255,255,255,.9);--clay-sm:6px 6px 14px rgba(0,0,0,.10),-6px -6px 14px rgba(255,255,255,.85);--clay-inset:inset 4px 4px 10px rgba(0,0,0,.08),inset -4px -4px 10px rgba(255,255,255,.7)}
+[data-theme="sepia"]{--teal:#8A5A2B;--teal-deep:#5C3D1E;--teal-bright:#A97C50;--teal-soft:#EADFC6;--teal-mist:#F7EED6;--bg:#EFE3C8;--surface:#FBF5E6;--surface2:#EADFC6;--ink:#43301A;--muted:#6F573C;--line:rgba(101,67,33,.24);--link:#7C4A12;--good:#41601F;--warn:#7A5200;--bad:#93301E;--chip:#EADFC6;--codebg:#EFE0C2;--th-bg:#5C3D1E;--th-ink:#FFF6E0;--warn-bg:#F7E8C3;--clay:10px 10px 24px rgba(101,67,33,.20),-10px -10px 24px rgba(255,250,235,.75);--clay-sm:6px 6px 14px rgba(101,67,33,.16),-6px -6px 14px rgba(255,250,235,.7);--clay-inset:inset 4px 4px 10px rgba(101,67,33,.13),inset -4px -4px 10px rgba(255,250,235,.6)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Nunito",system-ui,sans-serif;font-size:17px;line-height:1.75;font-weight:600}
+h1,h2,h3,h4{line-height:1.25;margin:0;font-weight:800}
+a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:2px}
+code,pre{font-family:"IBM Plex Mono",ui-monospace,monospace}
+::selection{background:var(--sel-bg);color:var(--sel-text)}
+#progress{position:fixed;top:0;left:0;height:4px;background:var(--teal-bright);width:0;z-index:60}
+.cover{background:var(--teal-soft);padding:28px 20px 26px}
+.cover-in{max-width:1120px;margin:0 auto}
+.cover .brand{color:var(--teal-deep);font-weight:900;letter-spacing:.12em;text-transform:uppercase;font-size:12px}
+.cover h1{font-size:clamp(28px,4.5vw,42px);font-weight:900;margin:10px 0 6px}
+.cover .sub{font-size:18px;color:var(--muted);max-width:820px}
+.cover .meta{display:flex;flex-wrap:wrap;gap:10px 24px;margin-top:14px;font-size:14px;color:var(--muted)}
+.cover .meta b{color:var(--ink)}
+.gold-rule{width:64px;height:5px;background:var(--teal);border-radius:999px;margin:14px 0 0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+.layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:36px;align-items:start;padding:32px 0 70px}
+.layout>*{min-width:0}
+main{min-width:0}
+.toc{position:sticky;top:20px;background:var(--surface);border-radius:22px;padding:18px;box-shadow:var(--clay)}
+.toc h3{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.toc a{display:block;padding:7px 11px;border-radius:13px;color:var(--ink);text-decoration:none;font-size:14.5px;line-height:1.4;font-weight:700}
+.toc a:hover{background:var(--chip)}
+.toc a.active{background:var(--teal);color:#fff}
+.toc .searchbox{display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--teal-mist);border-radius:13px;padding:0 11px;margin-bottom:10px}
+.toc .searchbox svg{flex:none;width:16px;height:16px;color:var(--muted)}
+.toc input[type="search"]{width:100%;padding:9px 0;border:0;background:transparent;color:var(--ink);font:inherit;font-size:14px;outline:none}
+.toc .selrow{font-size:12.5px;color:var(--muted);margin-top:12px}
+.toc .selrow label{display:block;margin:6px 0}
+.toc input[type="color"]{vertical-align:middle}
+section.unit{margin-bottom:56px;scroll-margin-top:20px}
+.ch-head{margin-bottom:20px}
+.ch-head .part{display:inline-block;color:var(--teal-deep);background:var(--teal-soft);font-weight:900;letter-spacing:.12em;text-transform:uppercase;font-size:12px;padding:5px 14px;border-radius:999px}
+.ch-head h2{font-size:clamp(24px,3.5vw,32px);margin-top:12px}
+.ch-head p{color:var(--muted);max-width:840px;margin:10px 0 0}
+h3.sub{font-size:21px;margin:28px 0 10px}
+h4.sub{font-size:17px;margin:20px 0 8px}
+p{margin:0 0 14px}
+ul,ol{margin:0 0 14px;padding-left:24px}
+li{margin-bottom:6px}
+.small{font-size:13.5px;color:var(--muted)}
+.card{background:var(--surface);border-radius:var(--radius);padding:24px;box-shadow:var(--clay);margin:16px 0}
+.def{background:var(--surface2);border-radius:var(--radius);padding:18px 22px;margin:14px 0;box-shadow:var(--clay-inset)}
+.def b.term{color:var(--teal-deep)}
+.callout{background:var(--teal-mist);border-radius:var(--radius);padding:18px 22px;margin:16px 0;box-shadow:var(--clay-sm)}
+.warn{background:var(--warn-bg);border-radius:var(--radius);padding:18px 22px;margin:16px 0;box-shadow:var(--clay-sm)}
+.callout h4,.warn h4{display:flex;align-items:center;gap:8px}
+.badge{display:inline-block;padding:3px 11px;border-radius:999px;font-size:.75rem;font-weight:800;white-space:nowrap}
+.verified{background:#dcfce7;color:#14532d}.partial{background:#fef9c3;color:#713f12}.unverified{background:#fee2e2;color:#7f1d1d}.incorrect{background:#f97316;color:#fff}
+.tblwrap{overflow-x:auto;border-radius:var(--radius);background:var(--surface);box-shadow:var(--clay);margin:16px 0 22px}
+table{border-collapse:collapse;width:100%;font-size:15px;min-width:520px}
+th{background:var(--th-bg);color:var(--th-ink);text-align:left;padding:12px 15px;font-weight:800;font-size:14px}
+td{padding:11px 15px;border-top:1px solid var(--line);vertical-align:top}
+tr td:first-child{font-weight:800}
+pre{background:var(--codebg);border-radius:16px;padding:18px 20px;overflow-x:auto;font-size:14px;line-height:1.6;margin:12px 0 18px;box-shadow:var(--clay-sm)}
+.steps{list-style:none;padding:0;margin:0}
+.steps li{position:relative;padding:0 0 18px 46px}
+.steps li::before{content:attr(data-n);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--teal);color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center;font-size:14px}
+button{font:inherit;font-weight:800;padding:9px 16px;border-radius:999px;border:0;background:var(--surface);color:var(--ink);cursor:pointer;box-shadow:var(--clay-sm)}
+button.active{background:var(--teal);color:#fff}
+a.watch{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:999px;background:var(--teal);color:#fff;text-decoration:none;font-weight:800;white-space:nowrap}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.chip{display:inline-flex;align-items:center;gap:6px;background:var(--chip);border-radius:999px;padding:6px 12px;font-size:.88rem;font-weight:700}
+.mcq{margin:12px 0}
+.mcq .answer{margin-top:8px}
+.icon{width:18px;height:18px;flex:none;vertical-align:-3px}
+.icon-sm{width:15px;height:15px;flex:none;vertical-align:-2px}
+.bookmark{display:inline-flex;align-items:center;gap:6px;font-size:14px;padding:6px 14px;vertical-align:middle}
+.bookmark svg{width:16px;height:16px}
+.bookmark.active svg{fill:currentColor}
+#topBtn{position:fixed;right:18px;bottom:92px;z-index:70;display:flex;align-items:center;gap:6px}
+#topBtn svg{width:16px;height:16px}
+.theme-dock{position:fixed;right:18px;bottom:18px;z-index:80;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.theme-bubble{width:54px;height:54px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:var(--clay);padding:0}
+.theme-bubble svg{width:26px;height:26px}
+.theme-menu{display:none;width:210px;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:18px;padding:8px;box-shadow:var(--clay)}
+.theme-menu.open{display:block}
+.theme-menu h3{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:4px 10px 6px}
+.theme-opt{display:flex;align-items:center;gap:10px;width:100%;font:inherit;font-size:14.5px;font-weight:800;color:var(--ink);background:transparent;border:0;border-radius:13px;padding:9px 10px;cursor:pointer;text-align:left;box-shadow:none}
+.theme-opt:hover{background:var(--chip)}
+.theme-opt .sw{width:22px;height:22px;border-radius:50%;flex:none;border:2px solid rgba(128,128,128,.45)}
+.theme-opt .sw.light{background:#0F766E}.theme-opt .sw.jet{background:#000}.theme-opt .sw.inverse{background:#fff}.theme-opt .sw.sepia{background:#C9A876}
+.theme-opt .ck{margin-left:auto;visibility:hidden}
+.theme-opt[aria-checked="true"] .ck{visibility:visible}
+.theme-opt[aria-checked="true"]{background:var(--chip)}
+@media(max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}.toc{position:static}}
+@media print{.toc,.theme-dock,#topBtn,#progress{display:none!important}.layout{grid-template-columns:minmax(0,1fr)}body{background:#fff;color:#000}.card,.def,.callout,.warn{box-shadow:none;border:1px solid #999}}
+
+.copybtn{display:inline-flex;align-items:center;gap:6px;margin:0 0 22px;padding:10px 18px;border:0;border-radius:999px;background:var(--teal);color:#fff;font-family:Nunito,system-ui,sans-serif;font-weight:800;font-size:14px;cursor:pointer;box-shadow:var(--clay-sm)}
+.copybtn:hover{filter:brightness(1.08)}
+.copybtn.copied{background:#0B6E63}
+.reveal-body{margin-top:10px}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 12.5l2.7 2.7L16 9.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 3L22 20H2L12 3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 10v4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="17.4" r="1.1" fill="currentColor"/></symbol>
+<symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.2 1.1 2.2h5c0-1 .4-1.6 1.1-2.2A6 6 0 0 0 12 3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5V5.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 8.5l6 3.5-6 3.5V8.5z" fill="currentColor"/></symbol>
+<symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a5 5 0 0 0 7.1 0l2.4-2.4a5 5 0 0 0-7.1-7.1L11 5.9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M14 10a5 5 0 0 0-7.1 0l-2.4 2.4a5 5 0 0 0 7.1 7.1L13 18.1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.5l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3 1.1-6.5L2.6 9.3l6.5-.9L12 2.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-.9 2-2 0-1.2-1-1.6-1-2.7 0-1.2 1-2.3 2.5-2.3H17a4 4 0 0 0 4-4c0-3.9-4-5-9-5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="7.5" cy="11" r="1.2" fill="currentColor"/><circle cx="11" cy="7.5" r="1.2" fill="currentColor"/><circle cx="15.5" cy="8.5" r="1.2" fill="currentColor"/></symbol>
+<symbol id="i-chev" viewBox="0 0 24 24"><path d="M5 15l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</defs>
+</svg>
+<div id="progress" aria-hidden="true"></div>
+<header class="cover">
+<div class="cover-in">
+<div class="brand">VU Midterm · BSCS · Nabila</div>
+<h1>Past Papers — Moaaz, Waqar, Junaid, Arslan</h1>
+<p class="sub">Saare 7 subjects ke past-paper files — aik jagah. Har link check kiya gaya hai (8 Nov 2026). Jo file nahi mili, woh bhi saaf likha hai.</p>
+<div class="gold-rule"></div>
+<div class="meta"><span><b>Subjects:</b> CS607, CS607P, CS609, CS621, MTH603, MTH501, MTH401</span><span><b>Compilers:</b> Moaaz, Waqar Siddhu, Junaid, Arslan</span><span><b>Checked:</b> 8 Nov 2026</span><span><b>Links:</b> sirf wohi jo khud khole gaye</span></div>
+</div>
+</header>
+<div class="wrap"><div class="layout">
+<aside class="toc" aria-label="Contents">
+<h3>Contents</h3>
+<div class="searchbox"><svg aria-hidden="true"><use href="#i-search"/></svg><input type="search" id="search" placeholder="Search — subject, website…" aria-label="Search"></div>
+<nav id="tocNav">
+<a href="#howto">Kaise use karein</a>
+<a href="#prompts-top">Prompts — Solve / MCQs / Subjective</a>
+<a href="#cs607">CS607 · Artificial Intelligence</a>
+<a href="#cs607p">CS607P · AI Practical</a>
+<a href="#cs609">CS609 · System Programming</a>
+<a href="#cs621">CS621 · Parallel &amp; Distributed</a>
+<a href="#mth603">MTH603 · Numerical Analysis</a>
+<a href="#mth501">MTH501 · Linear Algebra</a>
+<a href="#mth401">MTH401 · Differential Equations</a>
+<a href="#websites">Sources by Website</a>
+<a href="#promise">Solve karne ka waada</a>
+<a href="#sources">Sources</a>
+</nav>
+<div class="selrow"><strong>Text selection colours</strong>
+<label>Background <input type="color" id="selBg" value="#BFE9DF"></label>
+<label>Text <input type="color" id="selText" value="#083F39"></label>
+</div>
+<div class="small" id="progressText" style="margin-top:10px">Progress: 0 of 12 sections bookmarked.</div>
+</aside>
+<main>
+<section class="unit" id="howto">
+<div class="ch-head"><span class="part">Pehle parh lein</span><h2>Kaise use karein <button class="bookmark" data-unit="howto"><svg aria-hidden="true"><use href="#i-star"/></svg> Bookmark</button></h2><p>Is guide mein aap ke 7 subjects ke past-paper files ke links hain — Moaaz, Waqar Siddhu, Junaid aur Arslan ki files. Har row mein likha hai ke file kis website par hai, kis ne banayi hai, midterm hai ya finalterm, MCQs hain ya subjective, aur link khud khol kar check kiya gaya hai ya nahi.</p></div>
+<div class="warn"><h4 class="sub" style="margin-top:0"><svg class="icon" aria-hidden="true"><use href="#i-warn"/></svg> Sab se ahem baat — ye official papers nahi hain</h4>
+<p>Ye files <b>students ne banayi hain</b> (Moaaz, Waqar, Junaid, Arslan) — ye VU ke official past papers nahi hain. In mein jawab <b>ghalat bhi ho sakte hain</b>, aur hum ne pehle se ghalat jawab dhoonde bhi hain:</p>
+<ul>
+<li>CS621 ki aik file mein likha tha ke "multiple machines can process the same function at the same time" = Scalability — <b>ghalat hai, ye Concurrency hai</b>.</li>
+<li>CS609 ke aik hal mein likha tha ke C/C++ heap mein garbage collection hoti hai — <b>ghalat hai, heap mein garbage collection nahi hoti</b>.</li>
+<li>MTH501 ki Junaid file mein likha hai ke 5-dim space ka spanning set "at most five elements" ka hona chahiye — <b>ghalat hai, kam se kam 5 elements chahiye</b>.</li>
+</ul>
+<p>Is liye: <b>file ka jawab andha dhund na yaad karein — handout se check karein.</b> Aur agar kisi sawal ka hal chahiye to neeche wale prompts use karein: main hal kar ke doon gi aur file ke hal se compare kar ke bataoon gi ke file ka hal sahi hai ya ghalat.</p></div>
+<div class="def"><b class="term">Link kaise kholein?</b> Table mein "Link" wale button par click karein — woh us listing page par le jaye ga jis par file hai. Google Drive ki files seedha link nahi ki gayi hain: listing page par <b>DOWNLOAD button</b> dabayein, woh aap ko Drive file tak le jaye ga. Ye jaan boojh kar aisa kiya gaya hai, taake koi ghalat Drive link na di jaye.<br><br><b class="term">Status ka matlab:</b> <span class="badge verified">Opened and verified</span> — page khud khola aur file wahan dekhi. <span class="badge partial">Page exists, file not opened</span> — heading hai lekin us compiler ka link plain text hai (clickable nahi). <span class="badge unverified">Not found on that page</span> — us page par woh file nahi hai.</div>
+<div class="chips"><span class="chip"><svg class="icon-sm" aria-hidden="true"><use href="#i-book"/></svg><b>7 subjects</b> — midterm focus</span><span class="chip"><svg class="icon-sm" aria-hidden="true"><use href="#i-check"/></svg><b>19 websites/pages checked</b></span><span class="chip"><svg class="icon-sm" aria-hidden="true"><use href="#i-warn"/></svg><b>21 "Nahi mila" rows</b> — jo nahi mila, woh bhi likha hai</span></div>
+</section>
+
+<section class="unit" id="prompts-top">
+<div class="ch-head"><span class="part">Prompts — copy kar ke main chat mein dein</span><h2>Sawal ka hal, naye MCQs, ya subjective — prompts <button class="bookmark" data-unit="prompts-top"><svg aria-hidden="true"><use href="#i-star"/></svg> Bookmark</button></h2><p>Agar is file ke kisi bhi sawal ka hal chahiye, to us file ka link copy karein, neeche di gayi prompt ke saath main chat mein mujhe dein. Main usay solve kar ke doon gi, aur agar file mein uska hal pehle se likha hai to us se compare kar ke bataoon gi ke file ka hal sahi hai ya ghalat.</p></div>
+<div class="warn"><h4 class="sub" style="margin-top:0"><svg class="icon" aria-hidden="true"><use href="#i-warn"/></svg> Zaroori: prompt isi main chat mein dein</h4><p>Ye prompts <b>is main chat mein</b> paste karne ke liye hain — kisi doosri chat mein nahi. Main isi chat mein aap ko hal, naye MCQs aur subjective sawal bana kar doon gi. Har subject ke section ke neeche bhi yehi teen prompts dobara diye gaye hain, taake aap ko upar wapas na aana pare.</p></div>
+<h3 class="sub">Prompt A — Kisi sawal ka hal (Solve)</h3>
+<p>File ka link aur sawal number ya sawal ka text bhar kar copy karein:</p>
+<pre id="promptA">Is file ke sawal ka hal chahiye: [LINK YAHAN PASTE KAREIN]
+Sawal: [SAWAL NUMBER YA SAWAL KA TEXT YAHAN LIKHEIN]
+Isay step-by-step Roman Urdu mein solve karein, aur agar file mein iska hal pehle se diya hai to us se compare karein — file ka hal sahi hai ya ghalat, aur kyun.</pre>
+<button class="copybtn" data-target="promptA">Copy Prompt A</button>
+<h3 class="sub">Prompt B — Naye MCQs banwayein</h3>
+<pre id="promptB">Is file / topic se naye MCQs banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: [SUBJECT]
+10 naye MCQs banayein, har aik ke 4 options, sahi jawab aur aik line ki wajah ke saath. Sawal file ke sawalon jaise hon, lekin copy na hon.</pre>
+<button class="copybtn" data-target="promptB">Copy Prompt B</button>
+<h3 class="sub">Prompt C — Subjective sawal banwayein</h3>
+<pre id="promptC">Is file / topic se subjective sawal banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: [SUBJECT]
+5 subjective sawal banayein (2 marks, 3 marks, 5 marks), har sawal ke saath aik model answer aur marks ke mutabiq lambai.</pre>
+<button class="copybtn" data-target="promptC">Copy Prompt C</button>
+</section>
+
+<!-- CS607 -->
+<section class="unit" id="cs607">
+<div class="ch-head"><span class="part">Midterm focus · Chapters 1–2 detailed file available</span><h2>CS607 — Artificial Intelligence <button class="bookmark" data-unit="cs607"><svg aria-hidden="true"><use href="#i-star"/></svg> Bookmark</button></h2><p>Midterm scope: Chapters 1–2 (detailed file alag se hai). Files: Moaaz, Waqar, Junaid, Arslan — midterm aur finalterm dono.</p></div>
+<div class="tblwrap"><table>
+<tr><th>Website</th><th>Compiler</th><th>Term</th><th>Type</th><th>Link</th><th>Notes</th></tr>
+<tr><td>GetExamAnswers — Midterm (Moaaz/Waqar/Junaid)</td><td>Moaaz, Waqar, Junaid</td><td>Midterm</td><td>MCQs</td><td><a class="watch" href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Teeno compilers ke MCQs ke links hain.</td></tr>
+<tr><td>GetExamAnswers — Midterm (Moaaz/Waqar/Junaid)</td><td>Moaaz, Waqar</td><td>Midterm</td><td>Subjective</td><td><a class="watch" href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Junaid subjective nahi hai.</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>Moaaz, Junaid, Waqar</td><td>Midterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Bundle file (DOWNLOAD button).</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>Arslan</td><td>Midterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Arslan file — Drive link page par hai.</td></tr>
+<tr><td>VUAnswer — All CS subjects finalterm</td><td>Junaid, Moaaz, Waqar</td><td>Finalterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-all-cs-subjects-finalterm-past-papers/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Bundle file.</td></tr>
+<tr><td>VUAnswer — All CS subjects finalterm</td><td>Arslan</td><td>Finalterm</td><td>Papers — File 2</td><td><a class="watch" href="https://vuanswer.pk/vu-all-cs-subjects-finalterm-past-papers/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai.</td></tr>
+<tr><td>VUAnswer — All CS subjects finalterm</td><td>—</td><td>Finalterm</td><td>Current Subjective — File 3</td><td><a class="watch" href="https://vuanswer.pk/vu-all-cs-subjects-finalterm-past-papers/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai.</td></tr>
+<tr><td>VUBuddy — Moaaz index</td><td>Moaaz</td><td>Midterm + Finalterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vubuddy.com/past-papers/moaaz">Search CS607</a></td><td><span class="badge partial">Search here</span> Page par search box mein CS607 likhein. 3 downloads/day (website).</td></tr>
+<tr><td>MCQs / VUStudy — Finalterm page</td><td>—</td><td>Finalterm</td><td>Papers</td><td><a class="watch" href="https://mcqs.vustudy.pk/vufinal/">Open page</a></td><td><span class="badge verified">Opened and verified</span> CS607 finalterm tile page par hai.</td></tr>
+<tr><td>VU Apex — Current papers 2025</td><td>Students (recalls)</td><td>Midterm</td><td>Current paper recalls</td><td><a class="watch" href="https://vuapex.com.pk/current-vu-mid-term-papers-2025-2/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Spring 2025 recalls (23 aur 26 May 2025).</td></tr>
+<tr><td>VUAnswer — Midterm (Moaaz/Waqar/Junaid)</td><td>—</td><td>Midterm</td><td>—</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> CS607 ki heading khaali hai — koi file link nahi.</td></tr>
+<tr><td>VUAnswer — Finalterm (Moaaz/Waqar/Junaid)</td><td>—</td><td>Finalterm</td><td>—</td><td><a class="watch" href="https://vuanswer.pk/vu-finalterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> CS607 ki heading khaali hai — koi file link nahi.</td></tr>
+<tr><td>vumoaaz.wordpress.com — site search</td><td>—</td><td>—</td><td>—</td><td><a class="watch" href="https://vumoaaz.wordpress.com/">Open site</a></td><td><span class="badge unverified">Not found on that page</span> Site search mein "CS607" par "Nothing Found" (live browser se check, 8 Nov 2026).</td></tr>
+</table></div>
+<div class="callout"><h4 class="sub" style="margin-top:0"><svg class="icon" aria-hidden="true"><use href="#i-bulb"/></svg> CS607 ke prompts — yahin se copy karein</h4>
+<p>Agar is file ke kisi bhi sawal ka hal chahiye, to us file ka link copy karein, neeche di gayi prompt ke saath main chat mein mujhe dein. Main usay solve kar ke doon gi, aur agar file mein uska hal pehle se likha hai to us se compare kar ke bataoon gi ke file ka hal sahi hai ya ghalat.</p>
+<pre id="promptA-cs607">Is file ke sawal ka hal chahiye: [LINK YAHAN PASTE KAREIN]
+Sawal: [SAWAL NUMBER YA SAWAL KA TEXT YAHAN LIKHEIN]
+Subject: CS607 — Artificial Intelligence
+Isay step-by-step Roman Urdu mein solve karein, aur agar file mein iska hal pehle se diya hai to us se compare karein — file ka hal sahi hai ya ghalat, aur kyun.</pre>
+<button class="copybtn" data-target="promptA-cs607">Copy — Solve (CS607)</button>
+<pre id="promptB-cs607">Is file / topic se naye MCQs banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: CS607 — Artificial Intelligence
+10 naye MCQs banayein, har aik ke 4 options, sahi jawab aur aik line ki wajah ke saath. Sawal file ke sawalon jaise hon, lekin copy na hon.</pre>
+<button class="copybtn" data-target="promptB-cs607">Copy — New MCQs (CS607)</button>
+<pre id="promptC-cs607">Is file / topic se subjective sawal banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: CS607 — Artificial Intelligence
+5 subjective sawal banayein (2 marks, 3 marks, 5 marks), har sawal ke saath aik model answer aur marks ke mutabiq lambai.</pre>
+<button class="copybtn" data-target="promptC-cs607">Copy — Subjective (CS607)</button>
+</div>
+</section>
+
+<!-- CS607P -->
+<section class="unit" id="cs607p">
+<div class="ch-head"><span class="part">Practical · Labs 1–4</span><h2>CS607P — AI Practical <button class="bookmark" data-unit="cs607p"><svg aria-hidden="true"><use href="#i-star"/></svg> Bookmark</button></h2><p>CS607P ke liye koi Moaaz / Waqar / Junaid / Arslan past-paper file nahi mili — ye practical course hai, is ke Labs 1–4 (DFS/BFS) videos se parhein.</p></div>
+<div class="tblwrap"><table>
+<tr><th>Website</th><th>Compiler</th><th>Term</th><th>Type</th><th>Link</th><th>Notes</th></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>—</td><td>Midterm</td><td>—</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> CS607P ki heading hi nahi hai.</td></tr>
+<tr><td>VUAnswer — All CS subjects finalterm</td><td>—</td><td>Finalterm</td><td>—</td><td><a class="watch" href="https://vuanswer.pk/vu-all-cs-subjects-finalterm-past-papers/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> CS607P ki heading hi nahi hai.</td></tr>
+<tr><td>GetExamAnswers — Midterm</td><td>—</td><td>Midterm</td><td>—</td><td><a class="watch" href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> CS607P absent hai.</td></tr>
+<tr><td>VUBuddy — Moaaz index</td><td>Moaaz</td><td>Midterm + Finalterm</td><td>—</td><td><a class="watch" href="https://vubuddy.com/past-papers/moaaz">Search CS607P</a></td><td><span class="badge partial">Search here</span> Search box mein CS607P likh kar check karein — is guide ki research mein koi file nahi mili.</td></tr>
+<tr><td>vumoaaz.wordpress.com — site search</td><td>—</td><td>—</td><td>—</td><td><a class="watch" href="https://vumoaaz.wordpress.com/">Open site</a></td><td><span class="badge unverified">Not found on that page</span> Site search mein "CS607P" par "Nothing Found" (live browser se check, 8 Nov 2026).</td></tr>
+</table></div>
+<div class="callout"><h4 class="sub" style="margin-top:0"><svg class="icon" aria-hidden="true"><use href="#i-bulb"/></svg> CS607P ke prompts — yahin se copy karein</h4>
+<p>Agar is file ke kisi bhi sawal ka hal chahiye, to us file ka link copy karein, neeche di gayi prompt ke saath main chat mein mujhe dein. Main usay solve kar ke doon gi, aur agar file mein uska hal pehle se likha hai to us se compare kar ke bataoon gi ke file ka hal sahi hai ya ghalat.</p>
+<pre id="promptA-cs607p">Is file ke sawal ka hal chahiye: [LINK YAHAN PASTE KAREIN]
+Sawal: [SAWAL NUMBER YA SAWAL KA TEXT YAHAN LIKHEIN]
+Subject: CS607P — AI Practical (Labs: DFS / BFS)
+Isay step-by-step Roman Urdu mein solve karein, aur agar file mein iska hal pehle se diya hai to us se compare karein — file ka hal sahi hai ya ghalat, aur kyun.</pre>
+<button class="copybtn" data-target="promptA-cs607p">Copy — Solve (CS607P)</button>
+<pre id="promptB-cs607p">Is file / topic se naye MCQs banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: CS607P — AI Practical (DFS / BFS)
+10 naye MCQs banayein, har aik ke 4 options, sahi jawab aur aik line ki wajah ke saath. Sawal file ke sawalon jaise hon, lekin copy na hon.</pre>
+<button class="copybtn" data-target="promptB-cs607p">Copy — New MCQs (CS607P)</button>
+<pre id="promptC-cs607p">Is file / topic se subjective sawal banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: CS607P — AI Practical (DFS / BFS)
+5 subjective sawal banayein (2 marks, 3 marks, 5 marks), har sawal ke saath aik model answer aur marks ke mutabiq lambai.</pre>
+<button class="copybtn" data-target="promptC-cs607p">Copy — Subjective (CS607P)</button>
+</div>
+</section>
+
+<!-- CS609 -->
+<section class="unit" id="cs609">
+<div class="ch-head"><span class="part">Midterm focus · DOS / hardware syllabus</span><h2>CS609 — System Programming <button class="bookmark" data-unit="cs609"><svg aria-hidden="true"><use href="#i-star"/></svg> Bookmark</button></h2><p>Midterm scope: Topics 1–92 (student-file convention). Handout DOS/hardware syllabus hai — Windows API file is mein nahi aati.</p></div>
+<div class="tblwrap"><table>
+<tr><th>Website</th><th>Compiler</th><th>Term</th><th>Type</th><th>Link</th><th>Notes</th></tr>
+<tr><td>VUAnswer — Midterm (Moaaz/Waqar/Junaid)</td><td>Junaid</td><td>Midterm</td><td>MCQs</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Junaid ka Drive link hai; Moaaz/Waqar plain text hain (link nahi).</td></tr>
+<tr><td>VUAnswer — Midterm (Moaaz/Waqar/Junaid)</td><td>Moaaz, Waqar, Junaid</td><td>Midterm</td><td>Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge partial">Page exists, file not opened</span> Teeno naam plain text hain — koi link nahi.</td></tr>
+<tr><td>GetExamAnswers — Midterm</td><td>Junaid</td><td>Midterm</td><td>MCQs</td><td><a class="watch" href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Sirf Junaid MCQs ka link hai.</td></tr>
+<tr><td>GetExamAnswers — Midterm</td><td>—</td><td>Midterm</td><td>Subjective</td><td><a class="watch" href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> Subjective ke liye koi link nahi.</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>Moaaz, Junaid, Waqar</td><td>Midterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Bundle file (DOWNLOAD button).</td></tr>
+<tr><td>VUAnswer — All CS subjects finalterm</td><td>Moaaz, Junaid, Waqar</td><td>Finalterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-all-cs-subjects-finalterm-past-papers/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Bundle file.</td></tr>
+<tr><td>VUAnswer — All CS subjects finalterm</td><td>—</td><td>Finalterm</td><td>Current MCQs — File 2</td><td><a class="watch" href="https://vuanswer.pk/vu-all-cs-subjects-finalterm-past-papers/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai.</td></tr>
+<tr><td>VUAnswer — All CS subjects finalterm</td><td>—</td><td>Finalterm</td><td>Current Paper Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-all-cs-subjects-finalterm-past-papers/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai.</td></tr>
+<tr><td>VUBuddy — Moaaz index</td><td>Moaaz</td><td>Midterm + Finalterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vubuddy.com/past-papers/moaaz">Search CS609</a></td><td><span class="badge partial">Search here</span> Page par search box mein CS609 likhein.</td></tr>
+<tr><td>MCQs / VUStudy — Finalterm page</td><td>—</td><td>Finalterm</td><td>Papers</td><td><a class="watch" href="https://mcqs.vustudy.pk/vufinal/">Open page</a></td><td><span class="badge verified">Opened and verified</span> CS609 finalterm tile page par hai.</td></tr>
+<tr><td>Genrica — CS609 course page</td><td>—</td><td>—</td><td>Syllabus + video lectures</td><td><a class="watch" href="https://genrica.com/virtual_university_course.aspx?course_code=CS609">Open page</a></td><td><span class="badge verified">Opened and verified</span> Syllabus order ke liye — is page par past papers nahi hain.</td></tr>
+<tr><td>VUAnswer — Finalterm (Moaaz/Waqar/Junaid)</td><td>—</td><td>Finalterm</td><td>—</td><td><a class="watch" href="https://vuanswer.pk/vu-finalterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> CS609 ki heading khaali hai.</td></tr>
+<tr><td>vumoaaz.wordpress.com — site search</td><td>—</td><td>—</td><td>—</td><td><a class="watch" href="https://vumoaaz.wordpress.com/">Open site</a></td><td><span class="badge unverified">Not found on that page</span> Site search mein "CS609" par "Nothing Found" (live browser se check, 8 Nov 2026).</td></tr>
+</table></div>
+<div class="callout"><h4 class="sub" style="margin-top:0"><svg class="icon" aria-hidden="true"><use href="#i-bulb"/></svg> CS609 ke prompts — yahin se copy karein</h4>
+<p>Agar is file ke kisi bhi sawal ka hal chahiye, to us file ka link copy karein, neeche di gayi prompt ke saath main chat mein mujhe dein. Main usay solve kar ke doon gi, aur agar file mein uska hal pehle se likha hai to us se compare kar ke bataoon gi ke file ka hal sahi hai ya ghalat.</p>
+<pre id="promptA-cs609">Is file ke sawal ka hal chahiye: [LINK YAHAN PASTE KAREIN]
+Sawal: [SAWAL NUMBER YA SAWAL KA TEXT YAHAN LIKHEIN]
+Subject: CS609 — System Programming
+Isay step-by-step Roman Urdu mein solve karein, aur agar file mein iska hal pehle se diya hai to us se compare karein — file ka hal sahi hai ya ghalat, aur kyun.</pre>
+<button class="copybtn" data-target="promptA-cs609">Copy — Solve (CS609)</button>
+<pre id="promptB-cs609">Is file / topic se naye MCQs banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: CS609 — System Programming
+10 naye MCQs banayein, har aik ke 4 options, sahi jawab aur aik line ki wajah ke saath. Sawal file ke sawalon jaise hon, lekin copy na hon.</pre>
+<button class="copybtn" data-target="promptB-cs609">Copy — New MCQs (CS609)</button>
+<pre id="promptC-cs609">Is file / topic se subjective sawal banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: CS609 — System Programming
+5 subjective sawal banayein (2 marks, 3 marks, 5 marks), har sawal ke saath aik model answer aur marks ke mutabiq lambai.</pre>
+<button class="copybtn" data-target="promptC-cs609">Copy — Subjective (CS609)</button>
+</div>
+</section>
+
+<!-- CS621 -->
+<section class="unit" id="cs621">
+<div class="ch-head"><span class="part">Midterm focus · Weeks 1–4</span><h2>CS621 — Parallel and Distributed Computing <button class="bookmark" data-unit="cs621"><svg aria-hidden="true"><use href="#i-star"/></svg> Bookmark</button></h2><p>CS621 ki koi Moaaz / Waqar / Junaid past-paper file kisi listing page par nahi mili. Sirf Spring 2025 ke current-paper recalls (VU Apex) mile hain — wohi is waqt sab se kaam ki cheez hain.</p></div>
+<div class="tblwrap"><table>
+<tr><th>Website</th><th>Compiler</th><th>Term</th><th>Type</th><th>Link</th><th>Notes</th></tr>
+<tr><td>VU Apex — Current VU Mid Term Papers 2025</td><td>Students (recalls)</td><td>Midterm</td><td>Current paper recall</td><td><a class="watch" href="https://vuapex.com.pk/current-vu-mid-term-papers-2025-2/">Open page</a></td><td><span class="badge verified">Opened and verified</span> 24 May 2025, 5:30 pm: MCQs 80% "master file" se, load balancing, 3 failures, concurrency. Long: failures ki table, concurrency kaise achieve karein.</td></tr>
+<tr><td>VUBuddy — Moaaz index</td><td>Moaaz</td><td>Midterm + Finalterm</td><td>—</td><td><a class="watch" href="https://vubuddy.com/past-papers/moaaz">Search CS621</a></td><td><span class="badge partial">Search here</span> Search box mein CS621 likh kar check karein — is guide ki research mein koi file nahi mili.</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>—</td><td>Midterm</td><td>—</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> CS621 ki heading khaali hai.</td></tr>
+<tr><td>VUAnswer — All CS subjects finalterm</td><td>—</td><td>Finalterm</td><td>—</td><td><a class="watch" href="https://vuanswer.pk/vu-all-cs-subjects-finalterm-past-papers/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> CS621 ki heading khaali hai.</td></tr>
+<tr><td>VUAnswer — Midterm (Moaaz/Waqar/Junaid)</td><td>—</td><td>Midterm</td><td>—</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> CS621 ki heading hi nahi hai.</td></tr>
+<tr><td>VUAnswer — Finalterm (Moaaz/Waqar/Junaid)</td><td>—</td><td>Finalterm</td><td>—</td><td><a class="watch" href="https://vuanswer.pk/vu-finalterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> CS621 ki heading hi nahi hai.</td></tr>
+<tr><td>GetExamAnswers — Midterm</td><td>—</td><td>Midterm</td><td>—</td><td><a class="watch" href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> CS621 absent hai.</td></tr>
+<tr><td>MCQs / VUStudy — Finalterm page</td><td>—</td><td>Finalterm</td><td>—</td><td><a class="watch" href="https://mcqs.vustudy.pk/vufinal/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> CS621 ka tile nahi dikha.</td></tr>
+<tr><td>vumoaaz.wordpress.com — site search</td><td>—</td><td>—</td><td>—</td><td><a class="watch" href="https://vumoaaz.wordpress.com/">Open site</a></td><td><span class="badge unverified">Not found on that page</span> Site search mein "CS621" par "Nothing Found" (live browser se check, 8 Nov 2026).</td></tr>
+</table></div>
+<div class="warn"><h4 class="sub" style="margin-top:0"><svg class="icon" aria-hidden="true"><use href="#i-warn"/></svg> CS621 — vupark wali files ab nahi khulti</h4><p>Pehle vupark.com par "CS621 Week 1 – Week 6 merged" slides aur "CS621 MCQs Mids 2024" file hoti thi. <b>8 Nov 2026 ko vupark ka domain expired mila</b> — woh links ab kaam nahi karte, is liye is guide mein unhein link nahi kiya gaya. Agar aap ke paas woh files hain to un ka link mujhe dein, main un se hal kar ke doon gi.</p></div>
+<div class="callout"><h4 class="sub" style="margin-top:0"><svg class="icon" aria-hidden="true"><use href="#i-bulb"/></svg> CS621 ke prompts — yahin se copy karein</h4>
+<p>Agar is file ke kisi bhi sawal ka hal chahiye, to us file ka link copy karein, neeche di gayi prompt ke saath main chat mein mujhe dein. Main usay solve kar ke doon gi, aur agar file mein uska hal pehle se likha hai to us se compare kar ke bataoon gi ke file ka hal sahi hai ya ghalat.</p>
+<pre id="promptA-cs621">Is file ke sawal ka hal chahiye: [LINK YAHAN PASTE KAREIN]
+Sawal: [SAWAL NUMBER YA SAWAL KA TEXT YAHAN LIKHEIN]
+Subject: CS621 — Parallel and Distributed Computing
+Isay step-by-step Roman Urdu mein solve karein, aur agar file mein iska hal pehle se diya hai to us se compare karein — file ka hal sahi hai ya ghalat, aur kyun.</pre>
+<button class="copybtn" data-target="promptA-cs621">Copy — Solve (CS621)</button>
+<pre id="promptB-cs621">Is file / topic se naye MCQs banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: CS621 — Parallel and Distributed Computing
+10 naye MCQs banayein, har aik ke 4 options, sahi jawab aur aik line ki wajah ke saath. Sawal file ke sawalon jaise hon, lekin copy na hon.</pre>
+<button class="copybtn" data-target="promptB-cs621">Copy — New MCQs (CS621)</button>
+<pre id="promptC-cs621">Is file / topic se subjective sawal banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: CS621 — Parallel and Distributed Computing
+5 subjective sawal banayein (2 marks, 3 marks, 5 marks), har sawal ke saath aik model answer aur marks ke mutabiq lambai.</pre>
+<button class="copybtn" data-target="promptC-cs621">Copy — Subjective (CS621)</button>
+</div>
+</section>
+
+<!-- MTH603 -->
+<section class="unit" id="mth603">
+<div class="ch-head"><span class="part">Midterm focus · Lectures 1–22</span><h2>MTH603 — Numerical Analysis <button class="bookmark" data-unit="mth603"><svg aria-hidden="true"><use href="#i-star"/></svg> Bookmark</button></h2><p>Midterm scope: Lectures 1–22. Simpson / Trapezoidal (Lectures 32–33) final-term hain — midterm file mein dikhein to bhi woh final-term ka hissa hain.</p></div>
+<div class="tblwrap"><table>
+<tr><th>Website</th><th>Compiler</th><th>Term</th><th>Type</th><th>Link</th><th>Notes</th></tr>
+<tr><td>GetExamAnswers — Midterm</td><td>Moaaz, Junaid</td><td>Midterm</td><td>MCQs</td><td><a class="watch" href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Waqar MCQs ka link nahi; Subjective ka koi link nahi.</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>Moaaz, Junaid, Waqar</td><td>Midterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Bundle file (DOWNLOAD button).</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>—</td><td>Midterm</td><td>Mid MCQs — File 1</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai.</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>—</td><td>Midterm</td><td>Preparation File 2</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai.</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>—</td><td>Midterm</td><td>Current Papers</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai.</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>—</td><td>Midterm</td><td>Subjective File</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai.</td></tr>
+<tr><td>Cyberian — MTH603 midterm discussion</td><td>Waqar, Moaaz</td><td>Midterm</td><td>MCQs / Mega file</td><td><a class="watch" href="https://cyberian.pk/topic/838/mth603-mid-term-past-and-current-solved-paper-discussion">Open thread</a></td><td><span class="badge partial">Search result</span> Thread mein "mth603 midterm solved papers by waqar" aur "moaaz mega file" likhe hain.</td></tr>
+<tr><td>Cyberian — MTH603 finalterm Moaaz</td><td>Moaaz</td><td>Finalterm</td><td>MCQs</td><td><a class="watch" href="https://cyberian.pk/topic/2311/mth603-final-term-solved-papers-by-moaaz/36">Open thread</a></td><td><span class="badge partial">Search result</span> Final-term Moaaz MCQs discussion thread.</td></tr>
+<tr><td>VU Apex — Current VU Mid Term Papers 2025</td><td>Students (recalls)</td><td>Midterm</td><td>Current paper recall</td><td><a class="watch" href="https://vuapex.com.pk/current-vu-mid-term-papers-2025-2/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Spring 2025: Regula-Falsi, Secant, Power Method, Jacobi, binary-to-decimal.</td></tr>
+<tr><td>VUBuddy — Moaaz index</td><td>Moaaz</td><td>Midterm + Finalterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vubuddy.com/past-papers/moaaz">Search MTH603</a></td><td><span class="badge partial">Search here</span> Page par search box mein MTH603 likhein.</td></tr>
+<tr><td>MCQs / VUStudy — Finalterm page</td><td>—</td><td>Finalterm</td><td>Papers</td><td><a class="watch" href="https://mcqs.vustudy.pk/vufinal/">Open page</a></td><td><span class="badge verified">Opened and verified</span> MTH603 finalterm tile page par hai.</td></tr>
+<tr><td>VUAnswer — Midterm (Moaaz/Waqar/Junaid)</td><td>—</td><td>Midterm</td><td>—</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> MTH603 ki heading khaali hai.</td></tr>
+<tr><td>VUAnswer — Finalterm (Moaaz/Waqar/Junaid)</td><td>—</td><td>Finalterm</td><td>—</td><td><a class="watch" href="https://vuanswer.pk/vu-finalterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge unverified">Not found on that page</span> MTH603 ki heading khaali hai.</td></tr>
+<tr><td>vumoaaz.wordpress.com — site search</td><td>—</td><td>—</td><td>—</td><td><a class="watch" href="https://vumoaaz.wordpress.com/">Open site</a></td><td><span class="badge unverified">Not found on that page</span> Site search mein "MTH603" par "Nothing Found" (live browser se check, 8 Nov 2026).</td></tr>
+</table></div>
+<div class="callout"><h4 class="sub" style="margin-top:0"><svg class="icon" aria-hidden="true"><use href="#i-bulb"/></svg> MTH603 ke prompts — yahin se copy karein</h4>
+<p>Agar is file ke kisi bhi sawal ka hal chahiye, to us file ka link copy karein, neeche di gayi prompt ke saath main chat mein mujhe dein. Main usay solve kar ke doon gi, aur agar file mein uska hal pehle se likha hai to us se compare kar ke bataoon gi ke file ka hal sahi hai ya ghalat.</p>
+<pre id="promptA-mth603">Is file ke sawal ka hal chahiye: [LINK YAHAN PASTE KAREIN]
+Sawal: [SAWAL NUMBER YA SAWAL KA TEXT YAHAN LIKHEIN]
+Subject: MTH603 — Numerical Analysis
+Isay step-by-step Roman Urdu mein solve karein, aur agar file mein iska hal pehle se diya hai to us se compare karein — file ka hal sahi hai ya ghalat, aur kyun.</pre>
+<button class="copybtn" data-target="promptA-mth603">Copy — Solve (MTH603)</button>
+<pre id="promptB-mth603">Is file / topic se naye MCQs banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: MTH603 — Numerical Analysis
+10 naye MCQs banayein, har aik ke 4 options, sahi jawab aur aik line ki wajah ke saath. Sawal file ke sawalon jaise hon, lekin copy na hon.</pre>
+<button class="copybtn" data-target="promptB-mth603">Copy — New MCQs (MTH603)</button>
+<pre id="promptC-mth603">Is file / topic se subjective sawal banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: MTH603 — Numerical Analysis
+5 subjective sawal banayein (2 marks, 3 marks, 5 marks), har sawal ke saath aik model answer aur marks ke mutabiq lambai.</pre>
+<button class="copybtn" data-target="promptC-mth603">Copy — Subjective (MTH603)</button>
+</div>
+</section>
+
+<!-- MTH501 -->
+<section class="unit" id="mth501">
+<div class="ch-head"><span class="part">Midterm focus · Lessons 1–22</span><h2>MTH501 — Linear Algebra <button class="bookmark" data-unit="mth501"><svg aria-hidden="true"><use href="#i-star"/></svg> Bookmark</button></h2><p>Midterm scope: Lessons 1–22. Junaid ki Scribd file mein aik ghalat jawab hai (spanning set wala) — neeche warning parhein.</p></div>
+<div class="tblwrap"><table>
+<tr><th>Website</th><th>Compiler</th><th>Term</th><th>Type</th><th>Link</th><th>Notes</th></tr>
+<tr><td>VUAnswer — Midterm (Moaaz/Waqar/Junaid)</td><td>Waqar, Junaid</td><td>Midterm</td><td>MCQs</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Dono ke Drive links page par hain.</td></tr>
+<tr><td>VUAnswer — Midterm (Moaaz/Waqar/Junaid)</td><td>Waqar</td><td>Midterm</td><td>Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Waqar subjective ka Drive link hai; Junaid subjective plain text hai.</td></tr>
+<tr><td>GetExamAnswers — Midterm</td><td>Waqar, Junaid</td><td>Midterm</td><td>MCQs</td><td><a class="watch" href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Links hain.</td></tr>
+<tr><td>GetExamAnswers — Midterm</td><td>Waqar</td><td>Midterm</td><td>Subjective</td><td><a class="watch" href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Waqar subjective ka link hai.</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>Moaaz, Junaid, Waqar</td><td>Midterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Bundle file (DOWNLOAD button).</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>—</td><td>Midterm</td><td>Current Papers</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai.</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>—</td><td>Midterm</td><td>Midterm Notes</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai.</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>—</td><td>Midterm</td><td>Objective Preparation File</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai.</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>—</td><td>Midterm</td><td>Practice Questions Answers</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai.</td></tr>
+<tr><td>Scribd — MTH501 Midterm Solved MCQs by Junaid</td><td>Junaid</td><td>Midterm</td><td>MCQs — 37 pages</td><td><a class="watch" href="https://www.scribd.com/document/650763505/MTH501-MIDTERM-SOLVED-MCQS-By-JUNAID">Open page</a></td><td><span class="badge partial">Found in search</span> Page search se mila, is session mein khola nahi gaya. <b>Warning:</b> Q2 ka jawab ghalat hai — spanning set ko "at most five elements" nahi, <b>at least 5</b> chahiye.</td></tr>
+<tr><td>VUAnswer — Finalterm (Moaaz/Waqar/Junaid)</td><td>Waqar, Junaid</td><td>Finalterm</td><td>MCQs</td><td><a class="watch" href="https://vuanswer.pk/vu-finalterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Dono ke Drive links page par hain.</td></tr>
+<tr><td>VUAnswer — Finalterm (Moaaz/Waqar/Junaid)</td><td>Waqar</td><td>Finalterm</td><td>Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-finalterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Waqar subjective ka Drive link hai.</td></tr>
+<tr><td>VUBuddy — Moaaz index</td><td>Moaaz</td><td>Midterm + Finalterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vubuddy.com/past-papers/moaaz">Search MTH501</a></td><td><span class="badge partial">Search here</span> Page par search box mein MTH501 likhein.</td></tr>
+<tr><td>MCQs / VUStudy — Finalterm page</td><td>—</td><td>Finalterm</td><td>Papers</td><td><a class="watch" href="https://mcqs.vustudy.pk/vufinal/">Open page</a></td><td><span class="badge verified">Opened and verified</span> MTH501 finalterm tile page par hai.</td></tr>
+<tr><td>vumoaaz.wordpress.com — site search</td><td>—</td><td>—</td><td>—</td><td><a class="watch" href="https://vumoaaz.wordpress.com/">Open site</a></td><td><span class="badge unverified">Not found on that page</span> Site search mein "MTH501" par "Nothing Found" (live browser se check, 8 Nov 2026).</td></tr>
+</table></div>
+<div class="callout"><h4 class="sub" style="margin-top:0"><svg class="icon" aria-hidden="true"><use href="#i-bulb"/></svg> MTH501 ke prompts — yahin se copy karein</h4>
+<p>Agar is file ke kisi bhi sawal ka hal chahiye, to us file ka link copy karein, neeche di gayi prompt ke saath main chat mein mujhe dein. Main usay solve kar ke doon gi, aur agar file mein uska hal pehle se likha hai to us se compare kar ke bataoon gi ke file ka hal sahi hai ya ghalat.</p>
+<pre id="promptA-mth501">Is file ke sawal ka hal chahiye: [LINK YAHAN PASTE KAREIN]
+Sawal: [SAWAL NUMBER YA SAWAL KA TEXT YAHAN LIKHEIN]
+Subject: MTH501 — Linear Algebra
+Isay step-by-step Roman Urdu mein solve karein, aur agar file mein iska hal pehle se diya hai to us se compare karein — file ka hal sahi hai ya ghalat, aur kyun.</pre>
+<button class="copybtn" data-target="promptA-mth501">Copy — Solve (MTH501)</button>
+<pre id="promptB-mth501">Is file / topic se naye MCQs banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: MTH501 — Linear Algebra
+10 naye MCQs banayein, har aik ke 4 options, sahi jawab aur aik line ki wajah ke saath. Sawal file ke sawalon jaise hon, lekin copy na hon.</pre>
+<button class="copybtn" data-target="promptB-mth501">Copy — New MCQs (MTH501)</button>
+<pre id="promptC-mth501">Is file / topic se subjective sawal banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: MTH501 — Linear Algebra
+5 subjective sawal banayein (2 marks, 3 marks, 5 marks), har sawal ke saath aik model answer aur marks ke mutabiq lambai.</pre>
+<button class="copybtn" data-target="promptC-mth501">Copy — Subjective (MTH501)</button>
+</div>
+</section>
+
+<!-- MTH401 -->
+<section class="unit" id="mth401">
+<div class="ch-head"><span class="part">Midterm focus · Lectures 1–22 (student-file convention)</span><h2>MTH401 — Differential Equations <button class="bookmark" data-unit="mth401"><svg aria-hidden="true"><use href="#i-star"/></svg> Bookmark</button></h2><p>MTH401 Moaaz ki apni website par bhi hai — woh aap ke 7 subjects mein se waahid subject hai jo vumoaaz.wordpress.com par mila. Damped Motion (Lecture 23) final-term hai.</p></div>
+<div class="tblwrap"><table>
+<tr><th>Website</th><th>Compiler</th><th>Term</th><th>Type</th><th>Link</th><th>Notes</th></tr>
+<tr><td>vumoaaz.wordpress.com — MTH401 page (20 Aug 2017)</td><td>Moaaz</td><td>Midterm + Finalterm</td><td>Handout + Papers + Solved Paper</td><td><a class="watch" href="https://vumoaaz.wordpress.com/2017/08/20/math-401-differential-equations-mth401-handout-past-papers-solved-paper/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Handout Lec 1–45; Final Term: 3 papers + Solved Paper + All current subjective solved; Mid Term: "Mth401 Papers IN ONE FILE", 2 mid papers, Solved Paper, All current subjective solved.</td></tr>
+<tr><td>VUAnswer — Midterm (Moaaz/Waqar/Junaid)</td><td>Waqar, Junaid</td><td>Midterm</td><td>MCQs</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Dono ke Drive links page par hain.</td></tr>
+<tr><td>VUAnswer — Midterm (Moaaz/Waqar/Junaid)</td><td>Waqar</td><td>Midterm</td><td>Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Waqar subjective ka Drive link hai.</td></tr>
+<tr><td>GetExamAnswers — Midterm</td><td>Waqar, Junaid</td><td>Midterm</td><td>MCQs</td><td><a class="watch" href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Links hain.</td></tr>
+<tr><td>GetExamAnswers — Midterm</td><td>Waqar</td><td>Midterm</td><td>Subjective</td><td><a class="watch" href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Waqar subjective ka link hai.</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>Moaaz, Junaid, Waqar</td><td>Midterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Bundle file (DOWNLOAD button).</td></tr>
+<tr><td>VUAnswer — Midterm all subjects</td><td>—</td><td>Midterm</td><td>Mega Preparation File</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Drive link page par hai — revision ke liye behtareen.</td></tr>
+<tr><td>VUAnswer — Finalterm (Moaaz/Waqar/Junaid)</td><td>Waqar</td><td>Finalterm</td><td>MCQs</td><td><a class="watch" href="https://vuanswer.pk/vu-finalterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Waqar MCQs ka Drive link hai.</td></tr>
+<tr><td>VUAnswer — Finalterm (Moaaz/Waqar/Junaid)</td><td>Waqar</td><td>Finalterm</td><td>Subjective</td><td><a class="watch" href="https://vuanswer.pk/vu-finalterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td><td><span class="badge verified">Opened and verified</span> Waqar subjective ka Drive link hai.</td></tr>
+<tr><td>VUBuddy — Moaaz index</td><td>Moaaz</td><td>Midterm + Finalterm</td><td>MCQs + Subjective</td><td><a class="watch" href="https://vubuddy.com/past-papers/moaaz">Search MTH401</a></td><td><span class="badge partial">Search here</span> Page par search box mein MTH401 likhein.</td></tr>
+<tr><td>MCQs / VUStudy — Finalterm page</td><td>—</td><td>Finalterm</td><td>Papers</td><td><a class="watch" href="https://mcqs.vustudy.pk/vufinal/">Open page</a></td><td><span class="badge verified">Opened and verified</span> MTH401 finalterm tile page par hai.</td></tr>
+</table></div>
+<div class="warn"><h4 class="sub" style="margin-top:0"><svg class="icon" aria-hidden="true"><use href="#i-warn"/></svg> MTH401 (vumoaaz) — adfly links se hoshiyar rahein</h4>
+<p>MTH401 wale page par file ke links seedha file par nahi jate — woh <b>adfly shortlinks (j.gs / ay.gy)</b> se guzarte hain, jin par 5 second wait karna parta hai, aur file ka naam ya extension dikhayi nahi deta. Is liye is guide mein <b>sirf MTH401 ka page link kiya gaya hai, adfly shortlinks nahi</b>. Page khol kar wahan se file download karein, aur kisi ajeeb ad ya pop-up par click na karein.</p></div>
+<div class="callout"><h4 class="sub" style="margin-top:0"><svg class="icon" aria-hidden="true"><use href="#i-bulb"/></svg> MTH401 ke prompts — yahin se copy karein</h4>
+<p>Agar is file ke kisi bhi sawal ka hal chahiye, to us file ka link copy karein, neeche di gayi prompt ke saath main chat mein mujhe dein. Main usay solve kar ke doon gi, aur agar file mein uska hal pehle se likha hai to us se compare kar ke bataoon gi ke file ka hal sahi hai ya ghalat.</p>
+<pre id="promptA-mth401">Is file ke sawal ka hal chahiye: [LINK YAHAN PASTE KAREIN]
+Sawal: [SAWAL NUMBER YA SAWAL KA TEXT YAHAN LIKHEIN]
+Subject: MTH401 — Differential Equations
+Isay step-by-step Roman Urdu mein solve karein, aur agar file mein iska hal pehle se diya hai to us se compare karein — file ka hal sahi hai ya ghalat, aur kyun.</pre>
+<button class="copybtn" data-target="promptA-mth401">Copy — Solve (MTH401)</button>
+<pre id="promptB-mth401">Is file / topic se naye MCQs banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: MTH401 — Differential Equations
+10 naye MCQs banayein, har aik ke 4 options, sahi jawab aur aik line ki wajah ke saath. Sawal file ke sawalon jaise hon, lekin copy na hon.</pre>
+<button class="copybtn" data-target="promptB-mth401">Copy — New MCQs (MTH401)</button>
+<pre id="promptC-mth401">Is file / topic se subjective sawal banayein: [LINK YA TOPIC YAHAN PASTE KAREIN]
+Subject: MTH401 — Differential Equations
+5 subjective sawal banayein (2 marks, 3 marks, 5 marks), har sawal ke saath aik model answer aur marks ke mutabiq lambai.</pre>
+<button class="copybtn" data-target="promptC-mth401">Copy — Subjective (MTH401)</button>
+</div>
+</section>
+
+<!-- Websites -->
+<section class="unit" id="websites">
+<div class="ch-head"><span class="part">Har website kis kaam ki hai</span><h2>Sources by Website <button class="bookmark" data-unit="websites"><svg aria-hidden="true"><use href="#i-star"/></svg> Bookmark</button></h2><p>Har website ki taaqat aur us ki limit — taake aap ko pata ho kahan kya mile ga aur kahan waqt zaya nahi karna.</p></div>
+<div class="tblwrap"><table>
+<tr><th>Website</th><th>Kis kaam ki hai</th><th>Limit / khaami</th><th>Link</th></tr>
+<tr><td><b>VUBuddy</b> — Moaaz index</td><td>157 Moaaz files, 29 courses; 700+ courses, 18,000+ papers/quizzes/handouts, 100,000+ MCQs ka daawa. Search box se course code dhoondein.</td><td>Website par 3 downloads/day (Chrome extension 30/day, Android app unlimited). Per-course pages ka URL andaza se nahi likha — index se search karein.</td><td><a class="watch" href="https://vubuddy.com/past-papers/moaaz">Open site</a></td></tr>
+<tr><td><b>VUAnswer</b> — 4 listing pages</td><td>Sab se mukammal listing: midterm + finalterm, Moaaz/Waqar/Junaid bundles, Arslan files, Mega/Current/Notes files. Drive links listing page ke buttons ke peeche hain.</td><td>Kai headings khaali hain (CS607, CS609, MTH603 ke kuch pages par) — khaali heading ka matlab file nahi hai, ghalti nahi.</td><td><a class="watch" href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">Midterm all subjects</a></td></tr>
+<tr><td><b>GetExamAnswers</b></td><td>Midterm table — har subject ke MCQs aur subjective, compiler ke hisaab se saaf.</td><td>CS621 aur CS607P absent; kai subjective files ka link nahi (CS609, MTH603).</td><td><a class="watch" href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">Open page</a></td></tr>
+<tr><td><b>CampusAxis</b></td><td>1,566 papers, filter by university / course / semester / exam type. VU bhi supported universities mein hai.</td><td>Dikhai dene wali list zyada tar COMSATS aur doosri universities ki hai — apne subject ke liye filter lagana parta hai; koi specific VU file is page par nahi dekhi gayi.</td><td><a class="watch" href="https://campusaxis.pk/past-papers">Open page</a></td></tr>
+<tr><td><b>vumoaaz.wordpress.com</b> — Moaaz ki apni website</td><td>Moaaz ki apni site — sirf 5 posts, sab August 2017, sab 1st-semester BSCS subjects. Aap ke 7 subjects mein se <b>sirf MTH401</b> yahan hai (handout Lec 1–45 + midterm/finalterm papers).</td><td>CS607, CS607P, CS609, CS621, MTH603, MTH501 ki site search par "Nothing Found"; "Waqar" aur "Junaid" ki search par bhi kuch nahi — site par sirf Moaaz ki files hain. MTH401 ke file links adfly shortlinks (j.gs / ay.gy) se guzarte hain — 5 second wait, file ka naam/extension nahi dikhta — is liye sirf page link kiya gaya hai. Site par MTH101, MGT101, ENG101, CS101 bhi hain — woh aap ke subjects nahi hain.</td><td><a class="watch" href="https://vumoaaz.wordpress.com/2017/08/20/math-401-differential-equations-mth401-handout-past-papers-solved-paper/">MTH401 page</a></td></tr>
+<tr><td><b>Cyberian</b></td><td>Discussion threads — MTH603 ke Moaaz/Waqar mega files, CS607 ke Quiz 1/Quiz 2 solved discussions, master links thread.</td><td>Forum hai — links threads ke andar hain, seedha download page nahi.</td><td><a class="watch" href="https://cyberian.pk/topic/96/all-subjects-midterm-and-final-term-solved-paper-links-attached-please-check-moaaz-past-papers/24">Master links thread</a></td></tr>
+<tr><td><b>Genrica</b> — CS609 course page</td><td>CS609 ka syllabus order aur video lectures (instructor Dr. Yaser Daanial Khan).</td><td>Is page par past papers nahi hain — sirf syllabus ke liye.</td><td><a class="watch" href="https://genrica.com/virtual_university_course.aspx?course_code=CS609">Open page</a></td></tr>
+<tr><td><b>VU Apex</b> — Current papers 2025</td><td>Spring 2025 midterm recalls — students ne apne paper mein kya aaya, woh likha hai. CS621 ke liye yehi waahid source hai.</td><td>Recalls hain, official papers nahi — "80% master file se" jaisi baatein students ke andaze hain.</td><td><a class="watch" href="https://vuapex.com.pk/current-vu-mid-term-papers-2025-2/">Open page</a></td></tr>
+<tr><td><b>MCQs / VUStudy</b> — Finalterm page</td><td>Finalterm download tiles: CS607, CS609, MTH401, MTH501, MTH603.</td><td>CS621 aur CS607P ke tiles nahi mile; tiles vusolvedpaper.com / Google Drive par le jate hain.</td><td><a class="watch" href="https://mcqs.vustudy.pk/vufinal/">Open page</a></td></tr>
+<tr><td><b>VUStudy</b> — Past Papers by Moaaz</td><td>Moaaz ke all-subjects midterm + finalterm bundles, aur 2012–2019 ke purane exam papers.</td><td>"60–70% paper past papers se aata hai" — site ka apna daawa hai, verify nahi hua.</td><td><a class="watch" href="https://vustudy.com/past-papers-by-moaaz/">Open page</a></td></tr>
+<tr><td><b>UniPapersPK</b> — VU page</td><td>Download list: Final Term Papers 2024, Moaaz/Waqar midterm aur finalterm all-subjects bundles.</td><td>Links vustudy.com par le jate hain — yeh aik index hai, khud host nahi karta.</td><td><a class="watch" href="https://unipaperspk.com/virtual-university-of-pakistan/">Open page</a></td></tr>
+<tr><td><b>VU Smart Study</b> — Android app</td><td>Free app: handouts, VULMS, datesheet, Moaaz/Waqar/Arslan ke midterm + finalterm papers (MCQs + subjective).</td><td>App hai — Play Store se install karna parta hai; web par files nahi milti.</td><td><a class="watch" href="https://play.google.com/store/apps/details?id=com.ztapps.vusmartstudy&hl=en-US">Play Store</a></td></tr>
+<tr><td><b>Scribd</b> — Junaid MTH501 file</td><td>"MTH501 Midterm Solved MCQs by Junaid" — 37 pages.</td><td>Scribd par parhne ke liye account/download limit ho sakti hai; aur file mein ghalat jawab bhi hain (spanning set wala Q2).</td><td><a class="watch" href="https://www.scribd.com/document/650763505/MTH501-MIDTERM-SOLVED-MCQS-By-JUNAID">Open page</a></td></tr>
+<tr><td><b>vupark.com</b></td><td>Pehle CS621 ke Week 1–6 slides aur MCQs Mids 2024 yahan hote the.</td><td><b>Domain expired — 8 Nov 2026 ko band mila.</b> Is liye is guide mein is ka link nahi diya gaya.</td><td>—</td></tr>
+</table></div>
+</section>
+
+<!-- Promise -->
+<section class="unit" id="promise">
+<div class="ch-head"><span class="part">Mera waada</span><h2>Solve karne ka waada <button class="bookmark" data-unit="promise"><svg aria-hidden="true"><use href="#i-star"/></svg> Bookmark</button></h2><p>Jab aap kisi file ka link aur prompt <b>is main chat</b> mein dein gi, to main ye karoon gi:</p></div>
+<div class="def"><b class="term">1. Step-by-step hal</b> — sawal ko aasan Roman Urdu mein, step by step solve kar ke doon gi, aise ke samajh aaye ke jawab kyun wohi hai.<br><br><b class="term">2. File ke hal se compare</b> — agar file mein us sawal ka hal pehle se likha hai, to main apna hal us se compare karoon gi aur saaf bataoon gi ke file ka hal <b>sahi hai ya ghalat, aur kyun</b> ghalat hai.<br><br><b class="term">3. Ghaltiyan flag karna</b> — agar file mein ghalat jawab, ghalat formula ya ghalat tareeqa hai, to woh point out karoon gi aur sahi tareeqa handout ke mutabiq bataoon gi.<br><br><b class="term">4. Naye sawal banana</b> — aap ke kehne par usi file / topic se naye MCQs (10, har aik ke 4 options + wajah) ya subjective sawal (2, 3 aur 5 marks, model answer ke saath) bana kar doon gi — file ke sawalon jaise, lekin copy nahi.</div>
+<div class="warn"><h4 class="sub" style="margin-top:0"><svg class="icon" aria-hidden="true"><use href="#i-warn"/></svg> Ek shart</h4><p>Prompt <b>is main chat mein</b> dein — kisi doosri chat mein nahi. Isi liye har prompt box ke saath ye note likha hai. Aur agar file ka link Drive ka hai to listing page ka link dein (jis par DOWNLOAD button hai), taake main file tak pahunch sakoon.</p></div>
+</section>
+
+<!-- Sources -->
+<section class="unit" id="sources">
+<div class="ch-head"><span class="part">Tamam links — aik jagah</span><h2>Sources <button class="bookmark" data-unit="sources"><svg aria-hidden="true"><use href="#i-star"/></svg> Bookmark</button></h2><p>Har link is guide ki research ke doran khola gaya (8 Nov 2026), siwaye un ke jin par "search result" likha hai. Koi link andaze se nahi likha gaya.</p></div>
+<div class="def">
+<b class="term">VUBuddy — Moaaz index</b> — <a href="https://vubuddy.com/past-papers/moaaz">https://vubuddy.com/past-papers/moaaz</a> (8 Nov 2026)<br>
+<b class="term">VUAnswer — Midterm (Moaaz/Waqar/Junaid)</b> — <a href="https://vuanswer.pk/vu-midterm-past-papers-by-moaaz-waqar-junaid/">https://vuanswer.pk/vu-midterm-past-papers-by-moaaz-waqar-junaid/</a> (8 Nov 2026)<br>
+<b class="term">VUAnswer — Midterm all subjects</b> — <a href="https://vuanswer.pk/vu-midterm-past-papers-all-subjects/">https://vuanswer.pk/vu-midterm-past-papers-all-subjects/</a> (8 Nov 2026)<br>
+<b class="term">VUAnswer — Finalterm (Moaaz/Waqar/Junaid)</b> — <a href="https://vuanswer.pk/vu-finalterm-past-papers-by-moaaz-waqar-junaid/">https://vuanswer.pk/vu-finalterm-past-papers-by-moaaz-waqar-junaid/</a> (8 Nov 2026)<br>
+<b class="term">VUAnswer — All CS subjects finalterm</b> — <a href="https://vuanswer.pk/vu-all-cs-subjects-finalterm-past-papers/">https://vuanswer.pk/vu-all-cs-subjects-finalterm-past-papers/</a> (8 Nov 2026)<br>
+<b class="term">GetExamAnswers — Midterm</b> — <a href="https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/">https://www.getexamanswers.com/vu-midterm-past-papers-by-moaaz-waqar-junaid/</a> (8 Nov 2026)<br>
+<b class="term">CampusAxis — Past Papers</b> — <a href="https://campusaxis.pk/past-papers">https://campusaxis.pk/past-papers</a> (8 Nov 2026)<br>
+<b class="term">vumoaaz.wordpress.com — Moaaz ki website</b> — <a href="https://vumoaaz.wordpress.com/">https://vumoaaz.wordpress.com/</a> (live browser se kholi gayi, 8 Nov 2026)<br>
+<b class="term">vumoaaz — MTH401 page</b> — <a href="https://vumoaaz.wordpress.com/2017/08/20/math-401-differential-equations-mth401-handout-past-papers-solved-paper/">https://vumoaaz.wordpress.com/2017/08/20/math-401-differential-equations-mth401-handout-past-papers-solved-paper/</a> (20 Aug 2017; live browser se kholi gayi, 8 Nov 2026)<br>
+<b class="term">Cyberian — master links thread</b> — <a href="https://cyberian.pk/topic/96/all-subjects-midterm-and-final-term-solved-paper-links-attached-please-check-moaaz-past-papers/24">https://cyberian.pk/topic/96/all-subjects-midterm-and-final-term-solved-paper-links-attached-please-check-moaaz-past-papers/24</a> (search result, 8 Nov 2026)<br>
+<b class="term">Cyberian — MTH603 midterm discussion</b> — <a href="https://cyberian.pk/topic/838/mth603-mid-term-past-and-current-solved-paper-discussion">https://cyberian.pk/topic/838/mth603-mid-term-past-and-current-solved-paper-discussion</a> (search result, 8 Nov 2026)<br>
+<b class="term">Cyberian — MTH603 finalterm Moaaz</b> — <a href="https://cyberian.pk/topic/2311/mth603-final-term-solved-papers-by-moaaz/36">https://cyberian.pk/topic/2311/mth603-final-term-solved-papers-by-moaaz/36</a> (search result, 8 Nov 2026)<br>
+<b class="term">Genrica — CS609 course page</b> — <a href="https://genrica.com/virtual_university_course.aspx?course_code=CS609">https://genrica.com/virtual_university_course.aspx?course_code=CS609</a> (8 Nov 2026)<br>
+<b class="term">VU Apex — Current Mid Term Papers 2025</b> — <a href="https://vuapex.com.pk/current-vu-mid-term-papers-2025-2/">https://vuapex.com.pk/current-vu-mid-term-papers-2025-2/</a> (8 Nov 2026)<br>
+<b class="term">MCQs / VUStudy — Finalterm page</b> — <a href="https://mcqs.vustudy.pk/vufinal/">https://mcqs.vustudy.pk/vufinal/</a> (8 Nov 2026)<br>
+<b class="term">VUStudy — Past Papers by Moaaz</b> — <a href="https://vustudy.com/past-papers-by-moaaz/">https://vustudy.com/past-papers-by-moaaz/</a> (8 Nov 2026)<br>
+<b class="term">UniPapersPK — VU page</b> — <a href="https://unipaperspk.com/virtual-university-of-pakistan/">https://unipaperspk.com/virtual-university-of-pakistan/</a> (8 Nov 2026)<br>
+<b class="term">VU Smart Study app</b> — <a href="https://play.google.com/store/apps/details?id=com.ztapps.vusmartstudy&hl=en-US">https://play.google.com/store/apps/details?id=com.ztapps.vusmartstudy&amp;hl=en-US</a> (8 Nov 2026)<br>
+<b class="term">Scribd — MTH501 Midterm Solved MCQs by Junaid</b> — <a href="https://www.scribd.com/document/650763505/MTH501-MIDTERM-SOLVED-MCQS-By-JUNAID">https://www.scribd.com/document/650763505/MTH501-MIDTERM-SOLVED-MCQS-By-JUNAID</a> (search result, 8 Nov 2026)<br>
+<b class="term">vupark.com</b> — domain expired (8 Nov 2026); link nahi diya gaya.
+</div>
+<button class="reveal">Ek aakhri baat — parhne ke liye dabayein</button>
+<div class="reveal-body" id="revealNote" hidden>
+<p><b>Past papers se parhna behtareen tareeqa hai — lekin sirf tab jab aap jawab ko samajh kar parhein.</b> File ka hal ghalat bhi ho sakta hai; handout aap ka sab se bara hawala hai. Jo sawal samajh na aaye, us ka link aur prompt is main chat mein dein — main step by step hal kar ke doon gi aur file ke hal se compare kar ke bataoon gi ke woh sahi hai ya ghalat.</p>
+<p><b>Allah aap ko kamyabi de — midterm mein behtareen marks ke liye dua go hoon.</b></p>
+</div>
+</section>
+</main>
+</div></div>
+
+<button id="topBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})"><svg aria-hidden="true"><use href="#i-chev"/></svg> Top</button>
+<div class="theme-dock">
+<div class="theme-menu" id="themeMenu"><h3>Theme</h3>
+<button class="theme-opt" data-theme-opt="light"><span class="sw light"></span>Light Teal<span class="ck"><svg class="icon-sm" aria-hidden="true"><use href="#i-check"/></svg></span></button>
+<button class="theme-opt" data-theme-opt="jet"><span class="sw jet"></span>Jet Black<span class="ck"><svg class="icon-sm" aria-hidden="true"><use href="#i-check"/></svg></span></button>
+<button class="theme-opt" data-theme-opt="inverse"><span class="sw inverse"></span>White<span class="ck"><svg class="icon-sm" aria-hidden="true"><use href="#i-check"/></svg></span></button>
+<button class="theme-opt" data-theme-opt="sepia"><span class="sw sepia"></span>Sepia<span class="ck"><svg class="icon-sm" aria-hidden="true"><use href="#i-check"/></svg></span></button>
+</div>
+<button class="theme-bubble" id="themeBubble" aria-label="Change theme" title="Theme"><svg aria-hidden="true"><use href="#i-palette"/></svg></button>
+</div>
+<script>
+const root=document.documentElement;
+function setTheme(t){root.setAttribute('data-theme',t);localStorage.setItem('vu-chapters-theme',t);document.querySelectorAll('[data-theme-opt]').forEach(b=>b.setAttribute('aria-checked',b.dataset.themeOpt===t?'true':'false'));}
+setTheme(localStorage.getItem('vu-chapters-theme')||'light');
+document.getElementById('themeBubble').addEventListener('click',()=>document.getElementById('themeMenu').classList.toggle('open'));
+document.querySelectorAll('[data-theme-opt]').forEach(b=>b.addEventListener('click',()=>{setTheme(b.dataset.themeOpt);document.getElementById('themeMenu').classList.remove('open');}));
+function applySel(){root.style.setProperty('--sel-bg',document.getElementById('selBg').value);root.style.setProperty('--sel-text',document.getElementById('selText').value);localStorage.setItem('vu-sel-bg',document.getElementById('selBg').value);localStorage.setItem('vu-sel-text',document.getElementById('selText').value);}
+document.getElementById('selBg').value=localStorage.getItem('vu-sel-bg')||'#BFE9DF';
+document.getElementById('selText').value=localStorage.getItem('vu-sel-text')||'#083F39';
+applySel();
+document.getElementById('selBg').addEventListener('input',applySel);
+document.getElementById('selText').addEventListener('input',applySel);
+window.addEventListener('scroll',()=>{const h=document.documentElement;const p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;document.getElementById('progress').style.width=p+'%';},{passive:true});
+document.getElementById('search').addEventListener('input',e=>{const q=e.target.value.toLowerCase();document.querySelectorAll('.unit').forEach(c=>{c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';});});
+document.querySelectorAll('.reveal').forEach(b=>{b.dataset.label=b.textContent;b.addEventListener('click',()=>{const a=b.nextElementSibling;a.hidden=!a.hidden;b.textContent=a.hidden?b.dataset.label:'Chhupayein';});});
+const bookmarks=new Set(JSON.parse(localStorage.getItem('vu-bookmarks-pastpapers')||'[]'));
+function updateProgress(){document.getElementById('progressText').textContent='Progress: '+bookmarks.size+' of 12 sections bookmarked.';document.querySelectorAll('.bookmark').forEach(b=>b.classList.toggle('active',bookmarks.has(b.dataset.unit)));}
+document.querySelectorAll('.bookmark').forEach(b=>b.addEventListener('click',()=>{const s=b.dataset.unit;bookmarks.has(s)?bookmarks.delete(s):bookmarks.add(s);localStorage.setItem('vu-bookmarks-pastpapers',JSON.stringify([...bookmarks]));updateProgress();}));
+updateProgress();
+const links=[...document.querySelectorAll('#tocNav a')];
+window.addEventListener('scroll',()=>{let cur='';document.querySelectorAll('.unit').forEach(s=>{if(window.scrollY>=s.offsetTop-120)cur=s.id;});links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+cur));},{passive:true});
+
+document.querySelectorAll('.copybtn').forEach(b=>{b.dataset.label=b.textContent;b.addEventListener('click',()=>{const t=document.getElementById(b.dataset.target);if(!t)return;navigator.clipboard.writeText(t.textContent.trim()).then(()=>{b.textContent='Copied!';b.classList.add('copied');setTimeout(()=>{b.textContent=b.dataset.label;b.classList.remove('copied');},2000);});});});
+</script>
+</body>
+</html>
